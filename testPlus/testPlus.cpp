@@ -5,7 +5,7 @@
 #include <iostream>
 //#include "hiostream.h"
 #include "testSpace.h"
-
+#include "testWCOUT.h"
 int main()
 {
 	tPrint();
@@ -13,8 +13,8 @@ int main()
 	vPrint();
 	::tOldVersion::vPrint();
 
-	std::locale def;
-	std::cout<<"local.name="<< def.name().c_str()<<std::endl;
+	testwcout::printTestWCOUTCode();
+
 	int abc = 123;
 	//std::cout << abc << std::endl;
 	//cccc::cout<< abc << std::endl;

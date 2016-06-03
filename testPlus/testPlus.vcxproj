@@ -150,6 +150,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testSpace.h" />
+    <ClInclude Include="testWCOUT.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -159,6 +160,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testPlus.cpp" />
+    <ClCompile Include="testWCOUT.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="testPlus.rc" />

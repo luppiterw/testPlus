@@ -33,12 +33,18 @@
     <ClInclude Include="testSpace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="testWCOUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="testPlus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testWCOUT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
