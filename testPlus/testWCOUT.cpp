@@ -43,9 +43,10 @@ void testwcout::printTestWCOUTCode()
 	std::wcout << "CHN\tws5\t:" << str5.c_str() << tab << str5[1] << tab << str55.c_str() << std::endl;
 
 	//如此构造将失败!!!!  
-	//std::wstring str6(str3.begin(), str3.end());
-	//std::wstring str66(str6.rbegin(), str6.rend());
-	//std::wcout << "CHN\tws6\t:" << str6.c_str() << tab << str6[1] << tab << str66.c_str() << std::endl;
+	std::wstring str6(str3.begin(), str3.end());
+	std::wstring str66(str6.rbegin(), str6.rend());
+	std::wcout << "CHN\tws6\t:" << str6.c_str() << tab << str6[1] << tab << str66.c_str() << std::endl;
 
+	std::cout << std::endl;
 	std::cout << "**********testWCOUT.printTestWCOUTCode************" << std::endl;
 }
