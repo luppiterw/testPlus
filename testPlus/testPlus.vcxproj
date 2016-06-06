@@ -149,6 +149,10 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="testException.h" />
+    <ClInclude Include="testPointer.h" />
+    <ClInclude Include="testPrefs.h" />
+    <ClInclude Include="testReference.h" />
     <ClInclude Include="testSpace.h" />
     <ClInclude Include="testWCOUT.h" />
   </ItemGroup>
@@ -159,7 +163,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="testException.cpp" />
     <ClCompile Include="testPlus.cpp" />
+    <ClCompile Include="testPointer.cpp" />
+    <ClCompile Include="testReference.cpp" />
     <ClCompile Include="testWCOUT.cpp" />
   </ItemGroup>
   <ItemGroup>

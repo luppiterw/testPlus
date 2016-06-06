@@ -36,6 +36,18 @@
     <ClInclude Include="testWCOUT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="testPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testPrefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +57,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="testWCOUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testPointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
