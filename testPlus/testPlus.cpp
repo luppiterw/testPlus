@@ -28,11 +28,12 @@ int main()
 	char b = '\b';
 	char c = '\c';
 	//printf("\\a=[%c]", a);
-	//printf("\07");
+	printf("[\02]");
+	//printf("\a");
 
-	for (int i = 0; i < 128; i++) {
-		printf("%d = [\%c] \n", i, i);
-	}
+	//for (int i = 0; i < 128; i++) {
+	//	printf("%d = [\%c] \n", i, i);
+	//}
     return 0;
 }
 
