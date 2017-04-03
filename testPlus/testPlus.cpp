@@ -22,6 +22,17 @@ int main()
 
 	testpointer::printDistinguish();
 
+	//char 
+	//printf("\a");
+	char a = '\a';
+	char b = '\b';
+	char c = '\c';
+	//printf("\\a=[%c]", a);
+	//printf("\07");
+
+	for (int i = 0; i < 128; i++) {
+		printf("%d = [\%c] \n", i, i);
+	}
     return 0;
 }
 
